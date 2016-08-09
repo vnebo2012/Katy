@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_317bf34c87021415add4109f8229dd3af8841643.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_f2367019d5e04ec41e0daba98125eefb377e764b.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_0ceb636a835160673cf3f9849855a35421571727.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_c4f30ff0d665bedcda29a47865416a6460a7924a.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_1f82ca1d6db027eb736981b32f3e3fc7302c1b6a.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/nikolay/AndroidStudioProjects/MyCash/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_c3a44a0818fa4d6d2c189d58dcb69de4b4a90cfb.jar" />
+    </item>
+
+</items>
