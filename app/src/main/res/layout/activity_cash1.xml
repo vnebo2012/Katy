@@ -60,7 +60,7 @@
             android:textColor="#ffffff"
             android:onClick="onClickMinus1"
 
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -75,7 +75,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -114,7 +115,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -124,7 +126,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus11"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -133,7 +135,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout6"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout7">
+        android:id="@+id/linearLayout7"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -143,7 +146,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus2"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -158,7 +161,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -197,7 +201,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -207,7 +212,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus12"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -216,7 +221,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout7"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout8">
+        android:id="@+id/linearLayout8"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -226,7 +232,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus3"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -241,7 +247,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -280,7 +287,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -290,7 +298,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus13"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -299,7 +307,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout8"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout9">
+        android:id="@+id/linearLayout9"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -309,7 +318,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus4"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -324,7 +333,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -363,7 +373,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -373,7 +384,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus14"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -382,7 +393,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout9"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout10">
+        android:id="@+id/linearLayout10"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -392,7 +404,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus5"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -407,7 +419,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -446,7 +459,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -456,7 +470,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus15"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -465,7 +479,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout10"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout11">
+        android:id="@+id/linearLayout11"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -475,7 +490,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus6"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -490,7 +505,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -529,7 +545,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -539,7 +556,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus16"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -548,7 +565,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout11"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout12">
+        android:id="@+id/linearLayout12"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -558,7 +576,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus7"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -573,7 +591,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -612,7 +631,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -622,7 +642,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus17"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -631,7 +651,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout12"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout13">
+        android:id="@+id/linearLayout13"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -641,7 +662,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus8"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -656,7 +677,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -695,7 +717,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -705,7 +728,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus18"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -714,7 +737,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout13"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout14">
+        android:id="@+id/linearLayout14"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -724,7 +748,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus9"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -739,7 +763,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -778,7 +803,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -788,7 +814,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus19"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -797,7 +823,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout14"
         android:layout_centerHorizontal="true"
-        android:id="@+id/linearLayout16">
+        android:id="@+id/linearLayout16"
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="37dp"
@@ -807,7 +834,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus10"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
 
         <EditText
             android:layout_width="20dp"
@@ -822,7 +849,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -861,7 +889,8 @@
             android:textStyle="bold"
             android:text="0"
             android:textColorHint="#ff0000"
-            android:textColor="#004841" />
+            android:textColor="#004841"
+            android:textSize="14dp" />
 
         <Button
             android:layout_width="37dp"
@@ -871,7 +900,7 @@
             android:background="@drawable/radius"
             android:textColor="#ffffff"
             android:onClick="onClickMinus20"
-            android:textSize="11dp" />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -881,7 +910,7 @@
         android:id="@+id/linearLayout23"
         android:layout_below="@+id/linearLayout16"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="3dp">
 
         <Button
             android:layout_width="wrap_content"
@@ -891,7 +920,7 @@
             android:background="@drawable/radius3"
             android:textColor="#ffffff"
             android:onClick="onClickPaya"
-            android:textSize="11dp"
+            android:textSize="10dp"
             android:layout_weight="1" />
 
         <Button
@@ -902,12 +931,12 @@
             android:background="@drawable/radius5"
             android:textColor="#ffffff"
             android:onClick="onClickPlus"
-            android:textSize="11dp"
+            android:textSize="10dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp" />
 
         <EditText
-            android:layout_width="90dp"
+            android:layout_width="73dp"
             android:layout_height="wrap_content"
             android:id="@+id/editText41"
             android:selectAllOnFocus="true"
@@ -916,10 +945,10 @@
             android:textAlignment="center"
             android:hint="поле"
             android:textStyle="bold"
-            android:text="0"
+            android:text="999999"
             android:textColorHint="#ff0000"
             android:layout_marginRight="5dp"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:textColor="#00645a" />
 
         <Button
@@ -930,7 +959,7 @@
             android:background="@drawable/radius4"
             android:textColor="#ffffff"
             android:onClick="onClickToPay"
-            android:textSize="11dp"
+            android:textSize="10dp"
             android:allowUndo="false"
             android:layout_weight="1" />
     </LinearLayout>
