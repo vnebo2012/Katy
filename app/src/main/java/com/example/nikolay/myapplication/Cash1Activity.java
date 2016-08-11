@@ -24,47 +24,15 @@ import java.util.Locale;
 public class Cash1Activity extends Activity {
 
     final Context context2 = this;
-    private TextView button;
-    private TextView button2;
-    private TextView button3;
-    private TextView button4;
-    private TextView button5;
-    private TextView button6;
-    private TextView button7;
-    private TextView button8;
-    private TextView button9;
-    private TextView button10;
-    private TextView button11;
-    private TextView button12;
-    private TextView button13;
-    private TextView button14;
-    private TextView button15;
-    private TextView button16;
-    private TextView button17;
-    private TextView button18;
-    private TextView button19;
-    private TextView button20;
+    private TextView button,button2,button3, button4, button5, button6, button7, button8, button9,
+            button10, button11, button12, button13, button14, button15, button16, button17,
+            button18, button19,
+            button20;
 
-    private TextView final_text;
-    private TextView final_text2;
-    private TextView final_text3;
-    private TextView final_text4;
-    private TextView final_text5;
-    private TextView final_text6;
-    private TextView final_text7;
-    private TextView final_text8;
-    private TextView final_text9;
-    private TextView final_text10;
-    private TextView final_text11;
-    private TextView final_text12;
-    private TextView final_text13;
-    private TextView final_text14;
-    private TextView final_text15;
-    private TextView final_text16;
-    private TextView final_text17;
-    private TextView final_text18;
-    private TextView final_text19;
-    private TextView final_text20;
+    private TextView final_text, final_text2,final_text3,final_text4,final_text5,final_text6,
+            final_text7,final_text8,final_text9,final_text10,final_text11,final_text12,final_text13,final_text14,
+            final_text15,final_text16,final_text17,final_text18,final_text19,final_text20;
+
 
      /*< color=0xffffff00 > yellow
             < color=0xffffafaf > pink
@@ -194,6 +162,10 @@ public class Cash1Activity extends Activity {
 
     AlertDialog.Builder ad;
     Context context;
+
+    public Cash1Activity(TextView button) {
+        this.button = button;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
