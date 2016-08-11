@@ -921,7 +921,8 @@
             android:textColor="#ffffff"
             android:onClick="onClickPaya"
             android:textSize="10dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:elevation="0dp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -945,7 +946,7 @@
             android:textAlignment="center"
             android:hint="поле"
             android:textStyle="bold"
-            android:text="999999"
+            android:text="0"
             android:textColorHint="#ff0000"
             android:layout_marginRight="5dp"
             android:textSize="16dp"

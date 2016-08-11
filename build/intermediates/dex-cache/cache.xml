@@ -2,60 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_2dfd17576fa7e23f39314992c850ad89b7202046/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="30cff1ad21b4079743186cce9a3a1ef08025bdf0">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f61f730e9bc6322c0de48173e8a27b0f0bd772fb/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_c3a44a0818fa4d6d2c189d58dcb69de4b4a90cfb/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_a838830631e41ad19c05b014eb4b2a159b023d7f/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_c056c1a54437ebc7c7915e61323f4f56f41aadd5/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_c3faf325670b103dc643ff59bcc4b36a8f4a8478/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="9736d91d18e5c50ab32fd527ed86cc5802b2713d">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_002bb4d3445ce0edcc234815749089d714f627c2/classes.dex" />
-    </item>
-    <item
-        jar="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
         revision="24.0.1"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="/home/nikolay/AndroidStudioProjects/Katy3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_41b9e50dfc44c8f14a6048589b89036fc8138065/classes.dex" />
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_5237df13541f4a34b90decdabf3fb0b846d11837.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_47692e6346c7fa33082ecf7b02c4a923f27944c1.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_2922668d84e874b9123d9a31dd2965303a7e2281.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_d19476622c6c9fe709ef460cef82f9ec2f0ef40b.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_d5186149604b6945ebea5e0abac0710adffd0662.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/nikolay/AndroidStudioProjects/Katy/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_f00c71e7f7dc837651779485efa0d0a79c5c3500.jar" />
     </item>
 
 </items>
