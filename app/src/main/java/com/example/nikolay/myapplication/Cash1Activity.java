@@ -23,16 +23,51 @@ import java.util.Locale;
 
 public class Cash1Activity extends Activity {
 
+    //ok
+
     final Context context2 = this;
-    private TextView button,button2,button3, button4, button5, button6, button7, button8, button9,
-            button10, button11, button12, button13, button14, button15, button16, button17,
-            button18, button19,
-            button20;
+   // final Context context3 = this;
+    private TextView button;
+    private TextView button2;
+    private TextView button3;
+    private TextView button4;
+    private TextView button5;
+    private TextView button6;
+    private TextView button7;
+    private TextView button8;
+    private TextView button9;
+    private TextView button10;
+    private TextView button11;
+    private TextView button12;
+    private TextView button13;
+    private TextView button14;
+    private TextView button15;
+    private TextView button16;
+    private TextView button17;
+    private TextView button18;
+    private TextView button19;
+    private TextView button20;
 
-    private TextView final_text, final_text2,final_text3,final_text4,final_text5,final_text6,
-            final_text7,final_text8,final_text9,final_text10,final_text11,final_text12,final_text13,final_text14,
-            final_text15,final_text16,final_text17,final_text18,final_text19,final_text20;
-
+    private TextView final_text;
+    private TextView final_text2;
+    private TextView final_text3;
+    private TextView final_text4;
+    private TextView final_text5;
+    private TextView final_text6;
+    private TextView final_text7;
+    private TextView final_text8;
+    private TextView final_text9;
+    private TextView final_text10;
+    private TextView final_text11;
+    private TextView final_text12;
+    private TextView final_text13;
+    private TextView final_text14;
+    private TextView final_text15;
+    private TextView final_text16;
+    private TextView final_text17;
+    private TextView final_text18;
+    private TextView final_text19;
+    private TextView final_text20;
 
      /*< color=0xffffff00 > yellow
             < color=0xffffafaf > pink
@@ -161,11 +196,9 @@ public class Cash1Activity extends Activity {
     final String MY_SETTINGS = "saved_text921";
 
     AlertDialog.Builder ad;
+    AlertDialog.Builder ad3;
     Context context;
-
-    public Cash1Activity(TextView button) {
-        this.button = button;
-    }
+    Context context3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -299,7 +332,7 @@ public class Cash1Activity extends Activity {
             // выводим нужную активность
             // напр.
             //Intent intent = new Intent(this, Main2Activity.class);
-           // startActivity(intent);
+            // startActivity(intent);
 
             SharedPreferences.Editor e = sp.edit();
             e.putBoolean("hasVisited", true);
@@ -354,32 +387,32 @@ public class Cash1Activity extends Activity {
         //Добавляем слушателя нажатий по кнопке Button:
         button.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View arg0) {
-                LayoutInflater li = LayoutInflater.from(context2);
-                View promptsView = li.inflate(R.layout.prompt, null);
-                AlertDialog.Builder mDialogBuilder = new AlertDialog.Builder(context2);
-                mDialogBuilder.setView(promptsView);
-                final EditText userInput = (EditText) promptsView.findViewById(R.id.editText2);
-                mDialogBuilder
-                        .setCancelable(false)
-                        .setPositiveButton("OK",
-                                new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog,int id) {
-                                        final_text.setText(userInput.getText());
-                                    }
-                                })
-                        .setNegativeButton("Отмена",
-                                new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog,int id) {
-                                        dialog.cancel();
-                                    }
-                                });
-                AlertDialog alertDialog = mDialogBuilder.create();
-                alertDialog.show();
-            }
+                                      @Override
+                                      public void onClick(View arg0) {
+                                          LayoutInflater li = LayoutInflater.from(context2);
+                                          View promptsView = li.inflate(R.layout.prompt, null);
+                                          AlertDialog.Builder mDialogBuilder = new AlertDialog.Builder(context2);
+                                          mDialogBuilder.setView(promptsView);
+                                          final EditText userInput = (EditText) promptsView.findViewById(R.id.editText2);
+                                          mDialogBuilder
+                                                  .setCancelable(false)
+                                                  .setPositiveButton("OK",
+                                                          new DialogInterface.OnClickListener() {
+                                                              public void onClick(DialogInterface dialog,int id) {
+                                                                  final_text.setText(userInput.getText());
+                                                              }
+                                                          })
+                                                  .setNegativeButton("Отмена",
+                                                          new DialogInterface.OnClickListener() {
+                                                              public void onClick(DialogInterface dialog,int id) {
+                                                                  dialog.cancel();
+                                                              }
+                                                          });
+                                          AlertDialog alertDialog = mDialogBuilder.create();
+                                          alertDialog.show();
+                                      }
 
-        }
+                                  }
 
         );
 
@@ -887,9 +920,9 @@ public class Cash1Activity extends Activity {
 
 
         ad = new AlertDialog.Builder(context);
-        ad.setIcon(R.drawable.ico);
+        ad.setIcon(R.drawable.ico2);
         ad.setTitle(title);  // заголовок
-      //  ad.setMessage(message); // сообщение
+        //  ad.setMessage(message); // сообщение
         //ad.setMessage(message2); // сообщение
 
 
@@ -1022,6 +1055,53 @@ public class Cash1Activity extends Activity {
             }
         });
 
+        context3 = Cash1Activity.this;
+        title = "Обнулить счет?";
+        //String message = "(кроме средств на счету)";
+        String button11String = "Да, обнулить";
+        String button21String = "Нет";
+
+
+
+        ad3 = new AlertDialog.Builder(context3);
+        ad3.setIcon(R.drawable.ico2);
+        ad3.setTitle(title);  // заголовок
+        //  ad.setMessage(message); // сообщение
+        //ad.setMessage(message2); // сообщение
+
+
+        ad3.setPositiveButton(button1String, new DialogInterface.OnClickListener() {
+
+            public void onClick(DialogInterface dialog, int arg1) {
+                TextView bill21 = (TextView) findViewById(R.id.tvResult3);
+                bill21.setText(0 + "");
+                long mills = 70L;
+                Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                vibrator.vibrate(mills);
+                Toast.makeText(context3, "Данные обнулены",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
+        ad3.setNegativeButton(button2String, new DialogInterface.OnClickListener() {
+
+            public void onClick(DialogInterface dialog, int arg1) {
+
+                Toast.makeText(context3, "Изменений не произошло", Toast.LENGTH_LONG)
+                        .show();
+                long mills = 70L;
+                Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                vibrator.vibrate(mills);
+            }
+        });
+        ad3.setCancelable(true);
+        ad3.setOnCancelListener(new DialogInterface.OnCancelListener() {
+
+            public void onCancel(DialogInterface dialog) {
+                Toast.makeText(context3, "Изменений не произошло",
+                        Toast.LENGTH_LONG).show();
+
+            }
+        });
 
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -1122,6 +1202,13 @@ public class Cash1Activity extends Activity {
         Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(mills);
     }
+    public void onClickPaya2(View v) {
+        ad3.show();
+        long mills = 70L;
+        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator.vibrate(mills);
+    }
+
 
 
     public void onClickToPay(View view) {
@@ -1172,10 +1259,10 @@ public class Cash1Activity extends Activity {
         float num0020 = Float.parseFloat(aetText20.getText().toString());
 
         float w = (float) num001+num002+num003 + num004 + num005 + num006 +
-              num007+num008+num009+num0010+num0011+num0012+num0013+num0014+num0015+num0016+
-             num0017+num0018+num0019+num0020;
+                num007+num008+num009+num0010+num0011+num0012+num0013+num0014+num0015+num0016+
+                num0017+num0018+num0019+num0020;
 
-       // textView142.setText(w + "");
+        // textView142.setText(w + "");
         textView142.setText(String.format(Locale.US,"%.2f", w)+ "");
 
         long mills = 70L;
